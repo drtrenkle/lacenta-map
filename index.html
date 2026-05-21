@@ -192,23 +192,55 @@ const LOCS = [
   { name:"South Bay",        type:"clinic",   lat:33.8988322,  lng:-118.3767834, addr:"14650 Aviation Blvd, Suite 100\nHawthorne, CA 90250",                 phone:"855.522.3682" },
 
   // ── HOSPITAL AFFILIATIONS ────────────────────────────────────────────────────
-  { name:"Adventist Health Glendale",              type:"hospital", lat:34.1511892, lng:-118.2302590, addr:"1509 Wilson Terrace\nGlendale, CA 91206",             phone:"818.409.8000" },
-  { name:"Adventist Health White Memorial",        type:"hospital", lat:34.0492922, lng:-118.2176837, addr:"1720 E Cesar Chavez Ave\nLos Angeles, CA 90033",       phone:"323.268.5000" },
-  { name:"California Hospital Medical Center",     type:"hospital", lat:34.0375121, lng:-118.2662568, addr:"1401 S Grand Ave\nLos Angeles, CA 90015",              phone:"213.748.2411" },
-  { name:"Corona Regional Medical Center",         type:"hospital", lat:33.8730611, lng:-117.5683695, addr:"800 S Main St\nCorona, CA 92882",                      phone:"951.737.4343" },
-  { name:"Desert Regional Medical Center",         type:"hospital", lat:33.8385716, lng:-116.5434839, addr:"1150 N Indian Canyon Dr\nPalm Springs, CA 92262",      phone:"760.323.6511" },
-  { name:"Good Samaritan Hospital",                type:"hospital", lat:34.0544036, lng:-118.2649564, addr:"1225 Wilshire Blvd\nLos Angeles, CA 90017",            phone:"213.977.2121" },
-  { name:"Hollywood Presbyterian",                 type:"hospital", lat:34.0963447, lng:-118.2904587, addr:"1300 N Vermont Ave\nLos Angeles, CA 90027",            phone:"213.413.3000" },
-  { name:"Huntington Hospital",                    type:"hospital", lat:34.1336946, lng:-118.1522279, addr:"100 W California Blvd\nPasadena, CA 91105",            phone:"626.397.5000" },
-  { name:"Northridge Hospital",                    type:"hospital", lat:34.2201753, lng:-118.5335837, addr:"18300 Roscoe Blvd\nNorthridge, CA 91325",             phone:"818.885.8500" },
-  { name:"Palmdale Regional Medical Center",       type:"hospital", lat:34.5829079, lng:-118.1444158, addr:"38600 Medical Center Dr\nPalmdale, CA 93551",          phone:"661.382.5000" },
-  { name:"Providence St. John's",                  type:"hospital", lat:34.0306885, lng:-118.4795520, addr:"2121 Santa Monica Blvd\nSanta Monica, CA 90404",       phone:"310.829.5511" },
-  { name:"Torrance Memorial",                      type:"hospital", lat:33.8105213, lng:-118.3437184, addr:"3330 Lomita Blvd\nTorrance, CA 90505",                 phone:"310.325.9110" },
+  { name:"Adventist Health Glendale",               type:"hospital", lat:34.1511892,  lng:-118.2302590, addr:"1509 Wilson Terrace\nGlendale, CA 91206",                   phone:"818.409.8000" },
+  { name:"Adventist Health White Memorial",         type:"hospital", lat:34.0492922,  lng:-118.2176837, addr:"1720 E Cesar Chavez Ave\nLos Angeles, CA 90033",             phone:"323.268.5000" },
+  { name:"Adventist Health Montebello",             type:"hospital", lat:34.0150206,  lng:-118.1000468, addr:"309 W Beverly Blvd\nMontebello, CA 90640",                   phone:"323.726.1222" },
+  { name:"Antelope Valley Medical Center",          type:"hospital", lat:34.6881536,  lng:-118.1593830, addr:"1600 W Ave J\nLancaster, CA 93534",                          phone:"661.949.5000" },
+  { name:"California Hospital Medical Center",      type:"hospital", lat:34.0375121,  lng:-118.2662568, addr:"1401 S Grand Ave\nLos Angeles, CA 90015",                    phone:"213.748.2411" },
+  { name:"Corona Regional Medical Center",          type:"hospital", lat:33.8730611,  lng:-117.5683695, addr:"800 S Main St\nCorona, CA 92882",                            phone:"951.737.4343" },
+  { name:"Desert Regional Medical Center",          type:"hospital", lat:33.8385716,  lng:-116.5434839, addr:"1150 N Indian Canyon Dr\nPalm Springs, CA 92262",            phone:"760.323.6511" },
+  { name:"East LA Doctors Hospital",                type:"hospital", lat:34.0233075,  lng:-118.1844839, addr:"4060 Whittier Blvd\nLos Angeles, CA 90023",                  phone:"323.268.5514" },
+  { name:"Foothill Presbyterian Hospital",          type:"hospital", lat:34.1328165,  lng:-117.8712996, addr:"250 S Grand Ave\nGlendora, CA 91741",                        phone:"626.963.8411" },
+  { name:"Garfield Medical Center",                 type:"hospital", lat:34.0675446,  lng:-118.1231784, addr:"525 N Garfield Ave\nMonterey Park, CA 91754",                phone:"626.573.2222" },
+  { name:"Glendale Memorial Hospital",              type:"hospital", lat:34.1280598,  lng:-118.2570116, addr:"1420 S Central Ave\nGlendale, CA 91204",                     phone:"818.502.1900" },
+  { name:"Good Samaritan Hospital",                 type:"hospital", lat:34.0544036,  lng:-118.2649564, addr:"1225 Wilshire Blvd\nLos Angeles, CA 90017",                  phone:"213.977.2121" },
+  { name:"Henry Mayo Newhall Hospital",             type:"hospital", lat:34.3980741,  lng:-118.5532722, addr:"23845 McBean Pkwy\nValencia, CA 91355",                      phone:"661.200.2000" },
+  { name:"Hollywood Presbyterian",                  type:"hospital", lat:34.0963447,  lng:-118.2904587, addr:"1300 N Vermont Ave\nLos Angeles, CA 90027",                  phone:"213.413.3000" },
+  { name:"Huntington Hospital",                     type:"hospital", lat:34.1336946,  lng:-118.1522279, addr:"100 W California Blvd\nPasadena, CA 91105",                  phone:"626.397.5000" },
+  { name:"JFK Memorial Hospital",                   type:"hospital", lat:33.7064974,  lng:-116.2360926, addr:"47111 Monroe St\nIndio, CA 92201",                           phone:"760.347.6191" },
+  { name:"Los Angeles Community Hospital",          type:"hospital", lat:34.0192877,  lng:-118.1866586, addr:"4081 E Olympic Blvd\nLos Angeles, CA 90023",                 phone:"323.267.0477" },
+  { name:"MLK Jr Community Hospital",               type:"hospital", lat:33.9233741,  lng:-118.2426291, addr:"1680 E 120th St\nLos Angeles, CA 90059",                     phone:"424.338.8000" },
+  { name:"Monterey Park Hospital",                  type:"hospital", lat:34.0498108,  lng:-118.1381455, addr:"900 S Atlantic Blvd\nMonterey Park, CA 91754",               phone:"626.570.9000" },
+  { name:"Northridge Hospital",                     type:"hospital", lat:34.2201753,  lng:-118.5335837, addr:"18300 Roscoe Blvd\nNorthridge, CA 91325",                    phone:"818.885.8500" },
+  { name:"Palmdale Regional Medical Center",        type:"hospital", lat:34.5829079,  lng:-118.1444158, addr:"38600 Medical Center Dr\nPalmdale, CA 93551",                phone:"661.382.5000" },
+  { name:"Providence Holy Cross",                   type:"hospital", lat:34.2798239,  lng:-118.4599311, addr:"15031 Rinaldi St\nMission Hills, CA 91345",                  phone:"818.365.8051" },
+  { name:"Providence Little Company — Torrance",    type:"hospital", lat:33.8386696,  lng:-118.3573462, addr:"4101 Torrance Blvd\nTorrance, CA 90503",                     phone:"310.540.7676" },
+  { name:"Providence Little Company — San Pedro",   type:"hospital", lat:33.7384987,  lng:-118.3049839, addr:"1300 W 7th St\nSan Pedro, CA 90732",                         phone:"310.832.3311" },
+  { name:"Providence St. John's Health Center",     type:"hospital", lat:34.0306885,  lng:-118.4795520, addr:"2121 Santa Monica Blvd\nSanta Monica, CA 90404",             phone:"310.829.5511" },
+  { name:"Providence St. Joseph Medical Center",    type:"hospital", lat:34.1560974,  lng:-118.3287263, addr:"501 S Buena Vista St\nBurbank, CA 91505",                    phone:"818.843.5111" },
+  { name:"Queen of the Valley Hospital",            type:"hospital", lat:34.0634643,  lng:-117.9452025, addr:"1115 S Sunset Ave\nWest Covina, CA 91790",                   phone:"626.962.4011" },
+  { name:"San Antonio Regional Hospital",           type:"hospital", lat:34.1017766,  lng:-117.6369496, addr:"999 San Bernardino Rd\nUpland, CA 91786",                    phone:"909.985.2811" },
+  { name:"San Bernardino Community Medical Center", type:"hospital", lat:34.1314585,  lng:-117.3209335, addr:"1805 Medical Center Dr\nSan Bernardino, CA 92411",           phone:"909.887.6333" },
+  { name:"Southern California Hospital — Culver City", type:"hospital", lat:34.0232181, lng:-118.3968633, addr:"3828 Delmas Terrace\nCulver City, CA 90232",              phone:"310.836.7000" },
+  { name:"Southern California Hospital — Hollywood",   type:"hospital", lat:34.0964202, lng:-118.3252363, addr:"6245 De Longpre Ave\nLos Angeles, CA 90028",              phone:"323.462.2271" },
+  { name:"St. Bernardine Medical Center",           type:"hospital", lat:34.1347901,  lng:-117.2771314, addr:"2101 N Waterman Ave\nSan Bernardino, CA 92404",              phone:"909.883.8711" },
+  { name:"St. Francis Medical Center",              type:"hospital", lat:33.9303318,  lng:-118.2033698, addr:"3630 E Imperial Hwy\nLynwood, CA 90262",                     phone:"310.900.8900" },
+  { name:"St. Mary Medical Center",                 type:"hospital", lat:33.7800038,  lng:-118.1860397, addr:"1050 Linden Ave\nLong Beach, CA 90813",                      phone:"562.491.9000" },
+  { name:"Torrance Memorial Medical Center",        type:"hospital", lat:33.8105213,  lng:-118.3437184, addr:"3330 Lomita Blvd\nTorrance, CA 90505",                       phone:"310.325.9110" },
+  { name:"Whittier Hospital Medical Center",        type:"hospital", lat:33.9500191,  lng:-118.0040135, addr:"9080 Colima Rd\nWhittier, CA 90605",                         phone:"562.945.3561" },
 
   // ── SURGERY CENTERS ──────────────────────────────────────────────────────────
-  { name:"Century City Endoscopy",                 type:"asc",      lat:34.0592887, lng:-118.4112663, addr:"2080 Century Park E, Suite 1200\nLos Angeles, CA 90067", phone:"424.512.9093" },
-  { name:"Huntington Ambulatory SC",               type:"asc",      lat:34.1346137, lng:-118.1505415, addr:"625 S Fair Oaks Ave, Suite 380\nPasadena, CA 91105",     phone:"626.229.8999" },
-  { name:"Long Beach Optum Surgery",               type:"asc",      lat:33.8048702, lng:-118.1507998, addr:"2600 Redondo Ave\nLong Beach, CA 90806",                 phone:"562.988.7340" },
+  { name:"Century City Endoscopy",                  type:"asc",      lat:34.0590827,  lng:-118.4123202, addr:"2080 Century Park E\nLos Angeles, CA 90067",                 phone:"424.512.9093" },
+  { name:"Community Surgery Center — Glendale",     type:"asc",      lat:34.1560305,  lng:-118.2765264, addr:"5700 San Fernando Rd\nGlendale, CA 91202",                   phone:"818.637.7766" },
+  { name:"El Mirador Surgery Center",               type:"asc",      lat:33.8395185,  lng:-116.5447073, addr:"1180 N Indian Canyon Dr\nPalm Springs, CA 92262",            phone:"760.416.4600" },
+  { name:"Glenwood Surgery Center",                 type:"asc",      lat:33.9268267,  lng:-117.4361097, addr:"8945 Magnolia Ave, Suite 200\nRiverside, CA 92503",           phone:"951.688.7270" },
+  { name:"Grand Ave Surgery Center (DTLA)",         type:"asc",      lat:34.0364758,  lng:-118.2654073, addr:"Grand Ave\nLos Angeles, CA 90015",                            phone:"855.522.3682" },
+  { name:"Huntington Ambulatory Surgery Center",    type:"asc",      lat:34.1346137,  lng:-118.1505415, addr:"625 S Fair Oaks Ave, Suite 380\nPasadena, CA 91105",          phone:"626.229.8999" },
+  { name:"Inland Surgery Center",                   type:"asc",      lat:34.0381607,  lng:-117.2044897, addr:"1620 Laurel Ave\nRedlands, CA 92373",                         phone:"909.793.4701" },
+  { name:"Long Beach Optum Surgery Center",         type:"asc",      lat:33.8048702,  lng:-118.1507998, addr:"2600 Redondo Ave\nLong Beach, CA 90806",                      phone:"562.988.7340" },
+  { name:"Physicians Adventist Surgery Center",     type:"asc",      lat:34.1517311,  lng:-118.2321381, addr:"1500 E Chevy Chase Dr, Suite 101\nGlendale, CA 91206",        phone:"818.863.4225" },
+  { name:"Arcadia Outpatient Surgery Center",       type:"asc",      lat:34.1259141,  lng:-118.0524372, addr:"614 W Duarte Rd\nArcadia, CA 91007",                          phone:"626.445.4714" },
+  { name:"Rancho Mirage Surgery Center",            type:"asc",      lat:33.7905191,  lng:-116.4054484, addr:"35800 Bob Hope Dr, Suite 100\nRancho Mirage, CA 92270",       phone:"760.699.6500", cs:"In Process" },
 ];
 
 // ── Config
@@ -340,7 +372,7 @@ function toggle(type) {
 function doSearch(v) { q = v.toLowerCase(); render(); }
 
 function openPanel(loc) {
-  document.getElementById("pname").textContent = "LACENTA " + loc.name;
+  document.getElementById("pname").textContent = loc.type === "clinic" ? "LACENTA " + loc.name : loc.name;
   const b = document.getElementById("pbadge");
   b.textContent = LBL[loc.type]; b.style.background = BG[loc.type]; b.style.color = CLR[loc.type];
   const cs = document.getElementById("pcoming");
